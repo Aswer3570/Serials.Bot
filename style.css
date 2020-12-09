@@ -1,0 +1,149 @@
+body{
+	font-family: 'Roboto';
+}
+
+*{
+	transition: all .2s;
+}
+
+.body{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+.content{
+	width: 920px;
+	display: flex;
+	margin: 10vh 40px 10vh 40px;
+	background-color: #F0F0F0;
+	border-radius: 13px;
+	justify-content: center;
+    align-items: center;
+    padding: 20px 40px 20px 40px;
+}
+
+.container{
+	display: flex;
+}
+
+.phone_container{
+	width: ;
+	height: ;
+	padding: ;
+}
+.phone_img{
+	width: 275px;
+}
+
+.description_container{
+	width: 317px;
+	margin: 0 0 0 74px;
+
+	display: flex;
+  	flex-direction: column;
+}
+.description_wrapper{
+	margin-top: auto;
+}
+.logo_autor_container{
+	display: flex;
+	margin-bottom: 31px;
+}
+.logo_img{
+	width: 82px;
+	height: 82px;
+	border-radius: 20px;
+	box-shadow: 0 0 20px #DDC907;
+	margin: 0 20px 0 0;
+}
+.autor_container{
+	display: flex;
+  	flex-direction: column;
+}
+.autor_wrapper{
+	margin-top: auto;
+}
+.autor{
+	color: #9C9C9C;
+	font-size: 11px;
+	margin: 4px 0 0 0;
+}
+
+.title{
+	color: #2D2D2D;
+	font-size: 64px;
+	margin: 0 0 31px 0;
+}
+
+.description{
+	color: #757575;
+	font-size: 18px;
+	margin: 0;
+}
+.description_margin{
+	margin-bottom: 18px;
+}
+
+.button{
+	width: 313px;
+	color: #2D2D2D;
+	font-size: 19px;
+	padding: 18px 0 18px 0;
+	text-align: center;
+	background-color: #FFEE4D;
+	border-radius: 9px;
+	border: 2px solid rgba(238, 218, 20, 0.8);
+	text-decoration: none;
+	display: inline-block;
+	margin: 45px 0 0 0;
+}
+.button:hover{
+	background-color: #f5e446;
+}
+
+/*Мобильная версия*/
+@media screen and (max-width: 750px){
+	.phone_container{
+		display: none;
+	}
+
+	.description_container{
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 400px){
+	.content{
+		width: 88%;
+		padding: 20px 6% 20px 6%;
+	}
+
+	.description_container{
+		width: auto;
+	}
+
+	.autor{
+		font-size: 2.8vw;
+	}
+
+	.title{
+		font-size: 17vw;
+	}
+
+	.description{
+		font-size: 4.8vw;
+	}
+
+	.button{
+		width: 100%;
+	}
+}
+
+@media screen and (max-height: 415px){
+	.body{
+		height: unset;
+	}
+}
