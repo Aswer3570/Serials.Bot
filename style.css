@@ -142,7 +142,7 @@ body{
 	}
 }
 
-@media screen and (max-height: 415px){
+@media screen and (max-height: 582.594px), (max-height: 415px){
 	.body{
 		height: unset;
 	}
